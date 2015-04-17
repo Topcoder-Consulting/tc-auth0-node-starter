@@ -1,24 +1,24 @@
 # auth0-node-starter
 
-A barebones starter application for Auth0. Provides login functionality, security and viewing user info.
+A barebones starter application for Auth0 and the topcoder API. Provides login functionality, security and viewing user info.
 
 ## Auth0 Settings
 
-Setup for Auth0 is extremely fast and easy. Just [sign up for a free account at Auth0](https://auth0.com/) and then [open the Dashboard](https://manage.auth0.com). Click on the "Default App" from the Apps/APIs section and enter your callback URLs: `http://localhost:8000/callback` & `http://YOUR-APP.herokuapp.com/callback` (if you want to run the app from Heroku). You'll need some of the settings from this page when configuring up your app.
+Talk to the platform team about getting your callback URL setup.
 
 ## Local Installation Instructions
 
 From the command line type in:
 
 ```
-git clone git@github.com:jeffdonthemic/auth0-node-starter.git
-cd auth0-node-starter
+git clone git@github.com:topcoderinc/tc-auth0-node-starter.git
+cd tc-auth0-node-starter
 npm install
 ```
 
 ### Running the Application Locally
 
-1. Open terminal and change directory to auth0-node-starter root
+1. Open terminal and change directory to tc-auth0-node-starter root
 2. Export the following variables to your environment from Auth0.
 
 ```
