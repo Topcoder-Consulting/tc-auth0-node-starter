@@ -6,18 +6,6 @@ A barebones starter application for Auth0. Provides login functionality, securit
 
 Setup for Auth0 is extremely fast and easy. Just [sign up for a free account at Auth0](https://auth0.com/) and then [open the Dashboard](https://manage.auth0.com). Click on the "Default App" from the Apps/APIs section and enter your callback URLs: `http://localhost:8000/callback` & `http://YOUR-APP.herokuapp.com/callback` (if you want to run the app from Heroku). You'll need some of the settings from this page when configuring up your app.
 
-## Deploy to Heroku
-
-Deploy this app to Heroku for free and have it up and running in a matter of minutes.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/jeffdonthemic/auth0-node-starter)
-
-After the app is created you'll need to [update the default Auth0 application](https://manage.auth0.com/#/applications) and add the newly created Heroku URL to the list of "Allowed Callback URLs"
-for the "Default App". 
-
-Now go to the "Settings" tab for your app in Heroku and update the AUTH0_CALLBACK_URL Config Variables with the correct URL for your Heroku app. 
-
-
 ## Local Installation Instructions
 
 From the command line type in:
